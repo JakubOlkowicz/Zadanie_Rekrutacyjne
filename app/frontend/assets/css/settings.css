@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;800&display=swap');
+
+:root{
+    --main-color:#7f82c3;
+    --second-color:#c2ecec;
+}
+
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    padding-bottom: 40px;
+}
+
+header{
+    top: 20px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 60px;
+}
+header a{
+    width: fit-content;
+    margin: 0 auto;
+    display: block;
+}
+header h1{
+    font-size: 42px;
+    font-weight: 800;
+    color: var(--main-color);
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+header h3{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    font-weight: 800;
+}
+svg{
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+h2{
+    color: var(--main-color);
+    font-size: 24px;
+    margin: 20px 0 5px;
+}
+h3{
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.button,button{
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 15px 35px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 2px solid var(--main-color);
+    background: var(--main-color);
+    color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all .4s linear;
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+}

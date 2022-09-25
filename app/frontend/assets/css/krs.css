@@ -1,0 +1,81 @@
+.tabelWrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 40px;
+}
+.tabelWrapper .row{
+    font-size: 14px;
+    padding: 15px 0;
+    margin:  0;
+    border-bottom: 1px solid #ddd;
+    min-height: 65px;
+    display: flex;
+    align-items: center;
+}
+
+.tabelWrapper .row b{
+    font-weight: 800;
+    letter-spacing: 1px;
+    width: 150px;
+    min-width: 150px;
+    display: inline-block;
+    line-height: 16px;
+}
+
+.tabelWrapper .row.full{
+    flex-basis: 100%;
+    width: 100%;
+}
+.tabelWrapper .row.col-2{
+    flex-basis: 50%;
+    width: 50%;
+}
+.tabelWrapper .row.col-3{
+    flex-basis: 33.3%;
+    width: 33.3%;
+}
+.tabelWrapper .row.col-9{
+    flex-basis: 66.6%;
+    width: 66.6%;
+}
+
+.czlonkowieReprezentacji {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+  }
+  
+  .czlonkowieReprezentacji thead tr {
+    background-color: var(--main-color);
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .czlonkowieReprezentacji th,
+  .czlonkowieReprezentacji td {
+    padding: 12px 15px;
+  }
+  
+  .czlonkowieReprezentacji tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .czlonkowieReprezentacji tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .czlonkowieReprezentacji tbody tr:last-of-type {
+    border-bottom: 2px solid var(--main-color);
+  }
+  
+  .czlonkowieReprezentacji tbody tr.active-row {
+    font-weight: bold;
+    color: var(--main-color);
+  }

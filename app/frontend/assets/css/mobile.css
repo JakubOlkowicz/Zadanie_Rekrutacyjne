@@ -1,0 +1,40 @@
+@media  (max-width: 1024px) {
+    .tabelWrapper .row.col-3, .tabelWrapper .row.col-9{
+        width: 100%;
+        flex-basis: 100%;
+    }
+}
+@media  (max-width: 670px) {
+    .forms form{
+        width: 95%;
+        padding: 20px;
+    }
+    .switchContainer{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+}
+@media  (max-width: 460px) {
+    .forms form{
+        width: 95%;
+        padding: 20px;
+    }
+    .tabelWrapper .row{
+        flex-direction: column;
+        text-align: center;
+    }
+    .tabelWrapper .row b{
+        width: 100%;
+    }
+    .czlonkowieReprezentacji{
+        min-width: 320px;
+        text-align: center;
+    }
+    .czlonkowieReprezentacji th, .czlonkowieReprezentacji td{
+        padding: 8px 12px;
+    }
+    .czlonkowieReprezentacji thead tr{
+        text-align: center;
+    }
+}
