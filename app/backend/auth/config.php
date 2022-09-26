@@ -20,7 +20,7 @@ $GLOBALS['config'] = array(
     ),
 
     'no-krs' => array(
-        'title'          => 'Nie znaleziono rejestr',
+        'title'          => 'Nie znaleziono rejestru',
         'subtitle'          => 'Niestety nie udało się znaleźć danych w rejestrze',
     ),
 
